@@ -1,0 +1,21 @@
+# ─────────────────────────────────────────────────────────
+#  requirements.txt – Automatic Student Counter
+#  Install with:  pip install -r requirements.txt
+# ─────────────────────────────────────────────────────────
+
+# Core detection engine
+ultralytics>=8.0.0          # YOLOv8 model + training utilities
+
+# Computer vision
+opencv-python>=4.8.0        # Frame capture, drawing, video I/O
+
+# Numerical processing
+numpy>=1.24.0               # Array operations
+
+# Streamlit web app (optional – needed only for app.py)
+streamlit>=1.32.0           # Interactive web UI
+Pillow>=10.0.0              # Image handling in Streamlit
+
+# PyTorch backend (auto-installed by ultralytics, listed for clarity)
+# torch>=2.0.0
+# torchvision>=0.15.0
